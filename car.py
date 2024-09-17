@@ -35,3 +35,12 @@ if __name__ == "__main__":
     my_car = Car("BMW", "Civic", 2030)
     print("Car Information:")
     my_car.display_info()
+
+
+
+
+
+
+
+
+

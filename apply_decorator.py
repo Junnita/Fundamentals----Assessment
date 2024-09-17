@@ -12,6 +12,8 @@ def apply_decorator(func):
     return decorator_func(func)
 
 # Example usage:
+
+
 if __name__ == "__main__":
     @apply_decorator
     def add_numbers(first_number, second_number):
@@ -21,4 +23,4 @@ if __name__ == "__main__":
     
     # Call the decorated function
     result = add_numbers(10, 5)
-    print("Result:", result)
+print("Result:", result)
